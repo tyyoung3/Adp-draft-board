@@ -24,7 +24,7 @@ import datetime
 from flask import Flask, jsonify, request, render_template
 
 from scrapers.espn import get_espn_adp
-from scrapers.sleeper import get_sleeper_adp
+from scrapers.sleeper import get_sleeper_adp, load_half_ppr_seed
 from scrapers.merge import merge_sources
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -78,20 +78,49 @@ def api_get_players():
 def api_refresh():
     body = request.get_json(silent=True) or {}
     season = int(body.get("season") or _current_season_guess())
-    scoring = body.get("scoring", "PPR")
+    requested_scoring = body.get("scoring", "PPR").upper()
 
+    notes = []
     errors = {}
     espn_list, sleeper_list = [], []
 
+    # ESPN's draft-rank API only accepts PPR/STANDARD sort values — it 400s
+    # on half-PPR, and BeatADP's own half-PPR table shows ESPN as entirely
+    # unavailable there too (ESPN just doesn't publish half-PPR ADP at
+    # all). Fall back to PPR for the ESPN column rather than erroring.
+    espn_scoring = requested_scoring
+    if requested_scoring == "HALF":
+        espn_scoring = "PPR"
+        notes.append(
+            "ESPN doesn't publish Half PPR ADP at all — the ESPN column "
+            "above is showing full PPR ADP instead."
+        )
+
     try:
-        espn_list = get_espn_adp(season=season, scoring=scoring)
+        espn_list = get_espn_adp(season=season, scoring=espn_scoring)
     except Exception as e:  # noqa: BLE001 - surface any scrape failure to the UI
         errors["espn"] = str(e)
 
-    try:
-        sleeper_list = get_sleeper_adp()
-    except Exception as e:  # noqa: BLE001
-        errors["sleeper"] = str(e)
+    if requested_scoring == "HALF":
+        # BeatADP's scoring toggle is client-side JS, not reflected in any
+        # fetchable URL, so half-PPR Sleeper/FantasyPros numbers come from
+        # a manually captured static snapshot instead of a live scrape.
+        try:
+            sleeper_list, captured_at = load_half_ppr_seed()
+            notes.append(
+                f"Sleeper/FantasyPros Half PPR ADP is a static snapshot "
+                f"captured {captured_at}, not live data — BeatADP's scoring "
+                f"toggle can't be scraped directly. Re-paste fresh data "
+                f"into data/half_ppr_seed.json before draft day if you "
+                f"want current numbers."
+            )
+        except Exception as e:  # noqa: BLE001
+            errors["sleeper"] = str(e)
+    else:
+        try:
+            sleeper_list = get_sleeper_adp()
+        except Exception as e:  # noqa: BLE001
+            errors["sleeper"] = str(e)
 
     if not espn_list and not sleeper_list:
         return jsonify({"ok": False, "errors": errors}), 502
@@ -101,8 +130,9 @@ def api_refresh():
         "players": merged,
         "fetched_at": datetime.datetime.now().isoformat(timespec="seconds"),
         "season": season,
-        "scoring": scoring,
+        "scoring": requested_scoring,
         "counts": {"espn": len(espn_list), "sleeper": len(sleeper_list)},
+        "notes": notes,
     }
     save_json(PLAYERS_FILE, payload)
 
