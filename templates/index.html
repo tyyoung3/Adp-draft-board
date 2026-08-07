@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Draft Board — ESPN vs Sleeper vs FantasyPros ADP</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Draft Board</h1>
+    <div class="controls">
+      <label>Season
+        <input id="season" type="number" step="1" style="width:5.5em">
+      </label>
+      <label>Scoring
+        <select id="scoring">
+          <option value="PPR">PPR</option>
+          <option value="HALF">Half PPR</option>
+          <option value="STANDARD">Standard</option>
+        </select>
+      </label>
+      <button id="refreshBtn">Refresh ADP</button>
+      <button id="resetBtn" class="danger">Reset Draft</button>
+      <span id="status" class="status"></span>
+    </div>
+  </header>
+
+  <div id="errorBanner" class="error-banner" hidden></div>
+
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="Search player...">
+    <div id="posFilters" class="pos-filters">
+      <button data-pos="ALL" class="active">ALL</button>
+      <button data-pos="QB">QB</button>
+      <button data-pos="RB">RB</button>
+      <button data-pos="WR">WR</button>
+      <button data-pos="TE">TE</button>
+      <button data-pos="K">K</button>
+      <button data-pos="DST">DST</button>
+    </div>
+    <label class="hide-drafted">
+      <input type="checkbox" id="hideDrafted" checked>
+      Hide drafted
+    </label>
+    <span id="countInfo" class="count-info"></span>
+  </div>
+
+  <div class="table-wrap">
+  <table id="board">
+    <thead>
+      <tr>
+        <th data-sort="consensus_adp" class="sortable active">#</th>
+        <th data-sort="name" class="sortable">Player</th>
+        <th data-sort="position" class="sortable">Pos</th>
+        <th data-sort="team" class="sortable">Team</th>
+        <th data-sort="espn_adp" class="sortable">ESPN ADP</th>
+        <th data-sort="sleeper_adp" class="sortable">Sleeper ADP</th>
+        <th data-sort="fantasypros_adp" class="sortable">FantasyPros ADP</th>
+        <th data-sort="diff" class="sortable">Diff (Sleeper-ESPN)</th>
+        <th>Drafted</th>
+      </tr>
+    </thead>
+    <tbody id="boardBody"></tbody>
+  </table>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
