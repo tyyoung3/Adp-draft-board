@@ -1,0 +1,1801 @@
+{
+  "captured_at": "2026-08-06",
+  "source": "User-provided snapshot of BeatADP half-PPR comparison table",
+  "note": "Static fallback \u2014 BeatADP's scoring toggle is client-side JS and can't be live-scraped, so this is a manually captured snapshot rather than live data.",
+  "players": [
+    {
+      "name": "Bijan Robinson",
+      "team": "ATL",
+      "sleeper_adp": 1.9,
+      "fantasypros_adp": 2.1
+    },
+    {
+      "name": "Jahmyr Gibbs",
+      "team": "DET",
+      "sleeper_adp": 2.3,
+      "fantasypros_adp": 2.0
+    },
+    {
+      "name": "Ja'Marr Chase",
+      "team": "CIN",
+      "sleeper_adp": 3.7,
+      "fantasypros_adp": 2.7
+    },
+    {
+      "name": "Puka Nacua",
+      "team": "LAR",
+      "sleeper_adp": 4.8,
+      "fantasypros_adp": 4.1
+    },
+    {
+      "name": "Christian McCaffrey",
+      "team": "SF",
+      "sleeper_adp": 5.7,
+      "fantasypros_adp": 7.5
+    },
+    {
+      "name": "Jaxon Smith-Njigba",
+      "team": "SEA",
+      "sleeper_adp": 7.3,
+      "fantasypros_adp": 5.7
+    },
+    {
+      "name": "Jonathan Taylor",
+      "team": "IND",
+      "sleeper_adp": 6.4,
+      "fantasypros_adp": 9.1
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "team": "DET",
+      "sleeper_adp": 8.2,
+      "fantasypros_adp": 6.9
+    },
+    {
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "sleeper_adp": 10.3,
+      "fantasypros_adp": 9.6
+    },
+    {
+      "name": "James Cook",
+      "team": "BUF",
+      "sleeper_adp": 8.6,
+      "fantasypros_adp": 11.4
+    },
+    {
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "sleeper_adp": 11.4,
+      "fantasypros_adp": 10.3
+    },
+    {
+      "name": "Ashton Jeanty",
+      "team": "LV",
+      "sleeper_adp": 11.9,
+      "fantasypros_adp": 14.9
+    },
+    {
+      "name": "Saquon Barkley",
+      "team": "PHI",
+      "sleeper_adp": 13.5,
+      "fantasypros_adp": 17.9
+    },
+    {
+      "name": "De'Von Achane",
+      "team": "MIA",
+      "sleeper_adp": 13.6,
+      "fantasypros_adp": 19.1
+    },
+    {
+      "name": "Drake London",
+      "team": "ATL",
+      "sleeper_adp": 15.5,
+      "fantasypros_adp": 15.7
+    },
+    {
+      "name": "Chase Brown",
+      "team": "CIN",
+      "sleeper_adp": 16.4,
+      "fantasypros_adp": 18.0
+    },
+    {
+      "name": "Omarion Hampton",
+      "team": "LAC",
+      "sleeper_adp": 14.7,
+      "fantasypros_adp": 19.4
+    },
+    {
+      "name": "Brock Bowers",
+      "team": "LV",
+      "sleeper_adp": 18.0,
+      "fantasypros_adp": 17.9
+    },
+    {
+      "name": "Nico Collins",
+      "team": "HOU",
+      "sleeper_adp": 18.5,
+      "fantasypros_adp": 19.5
+    },
+    {
+      "name": "A.J. Brown",
+      "team": "NE",
+      "sleeper_adp": 18.2,
+      "fantasypros_adp": 18.0
+    },
+    {
+      "name": "Derrick Henry",
+      "team": "BAL",
+      "sleeper_adp": 22.0,
+      "fantasypros_adp": 22.0
+    },
+    {
+      "name": "Kenneth Walker III",
+      "team": "KC",
+      "sleeper_adp": 20.6,
+      "fantasypros_adp": 23.4
+    },
+    {
+      "name": "Trey McBride",
+      "team": "ARI",
+      "sleeper_adp": 17.1,
+      "fantasypros_adp": 23.7
+    },
+    {
+      "name": "Josh Allen",
+      "team": "BUF",
+      "sleeper_adp": 24.2,
+      "fantasypros_adp": 27.7
+    },
+    {
+      "name": "George Pickens",
+      "team": "DAL",
+      "sleeper_adp": 27.1,
+      "fantasypros_adp": 22.2
+    },
+    {
+      "name": "Rashee Rice",
+      "team": "KC",
+      "sleeper_adp": 23.0,
+      "fantasypros_adp": 25.3
+    },
+    {
+      "name": "Jeremiyah Love",
+      "team": "ARI",
+      "sleeper_adp": 22.5,
+      "fantasypros_adp": 36.2
+    },
+    {
+      "name": "Chris Olave",
+      "team": "NO",
+      "sleeper_adp": 31.8,
+      "fantasypros_adp": 27.6
+    },
+    {
+      "name": "Kyren Williams",
+      "team": "LAR",
+      "sleeper_adp": 26.6,
+      "fantasypros_adp": 35.2
+    },
+    {
+      "name": "Josh Jacobs",
+      "team": "GB",
+      "sleeper_adp": 25.2,
+      "fantasypros_adp": 37.4
+    },
+    {
+      "name": "DeVonta Smith",
+      "team": "PHI",
+      "sleeper_adp": 39.0,
+      "fantasypros_adp": 29.6
+    },
+    {
+      "name": "Tee Higgins",
+      "team": "CIN",
+      "sleeper_adp": 37.6,
+      "fantasypros_adp": 35.8
+    },
+    {
+      "name": "Breece Hall",
+      "team": "NYJ",
+      "sleeper_adp": 33.0,
+      "fantasypros_adp": 37.9
+    },
+    {
+      "name": "Javonte Williams",
+      "team": "DAL",
+      "sleeper_adp": 35.7,
+      "fantasypros_adp": 40.0
+    },
+    {
+      "name": "Lamar Jackson",
+      "team": "BAL",
+      "sleeper_adp": 38.5,
+      "fantasypros_adp": 37.1
+    },
+    {
+      "name": "Malik Nabers",
+      "team": "NYG",
+      "sleeper_adp": 38.2,
+      "fantasypros_adp": 37.2
+    },
+    {
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "sleeper_adp": 37.2,
+      "fantasypros_adp": 36.1
+    },
+    {
+      "name": "Zay Flowers",
+      "team": "BAL",
+      "sleeper_adp": 43.5,
+      "fantasypros_adp": 33.3
+    },
+    {
+      "name": "Colston Loveland",
+      "team": "CHI",
+      "sleeper_adp": 42.1,
+      "fantasypros_adp": 40.5
+    },
+    {
+      "name": "Garrett Wilson",
+      "team": "NYJ",
+      "sleeper_adp": 37.9,
+      "fantasypros_adp": 38.8
+    },
+    {
+      "name": "Emeka Egbuka",
+      "team": "TB",
+      "sleeper_adp": 43.0,
+      "fantasypros_adp": 38.4
+    },
+    {
+      "name": "Ladd McConkey",
+      "team": "LAC",
+      "sleeper_adp": 41.0,
+      "fantasypros_adp": 40.6
+    },
+    {
+      "name": "Travis Etienne Jr.",
+      "team": "NO",
+      "sleeper_adp": 39.5,
+      "fantasypros_adp": 48.1
+    },
+    {
+      "name": "Cam Skattebo",
+      "team": "NYG",
+      "sleeper_adp": 39.2,
+      "fantasypros_adp": 50.3
+    },
+    {
+      "name": "Jaylen Waddle",
+      "team": "DEN",
+      "sleeper_adp": 45.5,
+      "fantasypros_adp": 42.1
+    },
+    {
+      "name": "Drake Maye",
+      "team": "NE",
+      "sleeper_adp": 54.0,
+      "fantasypros_adp": 41.4
+    },
+    {
+      "name": "Terry McLaurin",
+      "team": "WSH",
+      "sleeper_adp": 45.0,
+      "fantasypros_adp": 44.4
+    },
+    {
+      "name": "Bucky Irving",
+      "team": "TB",
+      "sleeper_adp": 40.5,
+      "fantasypros_adp": 55.4
+    },
+    {
+      "name": "Joe Burrow",
+      "team": "CIN",
+      "sleeper_adp": 58.2,
+      "fantasypros_adp": 48.7
+    },
+    {
+      "name": "Davante Adams",
+      "team": "LAR",
+      "sleeper_adp": 55.0,
+      "fantasypros_adp": 48.4
+    },
+    {
+      "name": "Luther Burden III",
+      "team": "CHI",
+      "sleeper_adp": 44.9,
+      "fantasypros_adp": 49.9
+    },
+    {
+      "name": "Tyler Warren",
+      "team": "IND",
+      "sleeper_adp": 51.2,
+      "fantasypros_adp": 55.0
+    },
+    {
+      "name": "Quinshon Judkins",
+      "team": "CLE",
+      "sleeper_adp": 49.6,
+      "fantasypros_adp": 54.8
+    },
+    {
+      "name": "TreVeyon Henderson",
+      "team": "NE",
+      "sleeper_adp": 41.3,
+      "fantasypros_adp": 58.7
+    },
+    {
+      "name": "D'Andre Swift",
+      "team": "CHI",
+      "sleeper_adp": 58.6,
+      "fantasypros_adp": 55.4
+    },
+    {
+      "name": "David Montgomery",
+      "team": "HOU",
+      "sleeper_adp": 53.5,
+      "fantasypros_adp": 57.5
+    },
+    {
+      "name": "Jameson Williams",
+      "team": "DET",
+      "sleeper_adp": 52.2,
+      "fantasypros_adp": 54.8
+    },
+    {
+      "name": "Jayden Daniels",
+      "team": "WSH",
+      "sleeper_adp": 64.1,
+      "fantasypros_adp": 54.6
+    },
+    {
+      "name": "Mike Evans",
+      "team": "SF",
+      "sleeper_adp": 57.0,
+      "fantasypros_adp": 53.5
+    },
+    {
+      "name": "DJ Moore",
+      "team": "BUF",
+      "sleeper_adp": 53.9,
+      "fantasypros_adp": 59.3
+    },
+    {
+      "name": "Jalen Hurts",
+      "team": "PHI",
+      "sleeper_adp": 68.4,
+      "fantasypros_adp": 60.3
+    },
+    {
+      "name": "Christian Watson",
+      "team": "GB",
+      "sleeper_adp": 63.3,
+      "fantasypros_adp": 57.1
+    },
+    {
+      "name": "Bhayshul Tuten",
+      "team": "JAX",
+      "sleeper_adp": null,
+      "fantasypros_adp": 63.7
+    },
+    {
+      "name": "Rome Odunze",
+      "team": "CHI",
+      "sleeper_adp": 62.6,
+      "fantasypros_adp": 59.7
+    },
+    {
+      "name": "Jadarian Price",
+      "team": "SEA",
+      "sleeper_adp": 63.0,
+      "fantasypros_adp": 68.5
+    },
+    {
+      "name": "Tucker Kraft",
+      "team": "GB",
+      "sleeper_adp": 68.0,
+      "fantasypros_adp": 68.7
+    },
+    {
+      "name": "Carnell Tate",
+      "team": "TEN",
+      "sleeper_adp": 62.5,
+      "fantasypros_adp": 72.3
+    },
+    {
+      "name": "Jaylen Warren",
+      "team": "PIT",
+      "sleeper_adp": 66.6,
+      "fantasypros_adp": 72.9
+    },
+    {
+      "name": "Harold Fannin Jr.",
+      "team": "CLE",
+      "sleeper_adp": 66.7,
+      "fantasypros_adp": 79.5
+    },
+    {
+      "name": "Justin Herbert",
+      "team": "LAC",
+      "sleeper_adp": 85.7,
+      "fantasypros_adp": 70.3
+    },
+    {
+      "name": "Sam LaPorta",
+      "team": "DET",
+      "sleeper_adp": 78.4,
+      "fantasypros_adp": 81.9
+    },
+    {
+      "name": "Chuba Hubbard",
+      "team": "CAR",
+      "sleeper_adp": 73.0,
+      "fantasypros_adp": 82.4
+    },
+    {
+      "name": "Caleb Williams",
+      "team": "CHI",
+      "sleeper_adp": 86.5,
+      "fantasypros_adp": 70.2
+    },
+    {
+      "name": "Brian Thomas Jr.",
+      "team": "JAX",
+      "sleeper_adp": 65.6,
+      "fantasypros_adp": 77.4
+    },
+    {
+      "name": "Marvin Harrison Jr.",
+      "team": "ARI",
+      "sleeper_adp": 76.9,
+      "fantasypros_adp": 75.0
+    },
+    {
+      "name": "Kyle Pitts Sr.",
+      "team": "ATL",
+      "sleeper_adp": 76.2,
+      "fantasypros_adp": 83.2
+    },
+    {
+      "name": "Rhamondre Stevenson",
+      "team": "NE",
+      "sleeper_adp": 73.7,
+      "fantasypros_adp": 79.1
+    },
+    {
+      "name": "DK Metcalf",
+      "team": "PIT",
+      "sleeper_adp": 78.1,
+      "fantasypros_adp": 78.5
+    },
+    {
+      "name": "Alec Pierce",
+      "team": "IND",
+      "sleeper_adp": 81.8,
+      "fantasypros_adp": 80.2
+    },
+    {
+      "name": "Tony Pollard",
+      "team": "TEN",
+      "sleeper_adp": 82.1,
+      "fantasypros_adp": 78.2
+    },
+    {
+      "name": "Rico Dowdle",
+      "team": "PIT",
+      "sleeper_adp": 83.2,
+      "fantasypros_adp": 85.2
+    },
+    {
+      "name": "Dak Prescott",
+      "team": "DAL",
+      "sleeper_adp": 97.8,
+      "fantasypros_adp": 80.5
+    },
+    {
+      "name": "Parker Washington",
+      "team": "JAX",
+      "sleeper_adp": 81.1,
+      "fantasypros_adp": 81.8
+    },
+    {
+      "name": "Jordyn Tyson",
+      "team": "NO",
+      "sleeper_adp": 71.6,
+      "fantasypros_adp": 93.2
+    },
+    {
+      "name": "Trevor Lawrence",
+      "team": "JAX",
+      "sleeper_adp": 93.8,
+      "fantasypros_adp": 78.0
+    },
+    {
+      "name": "Jaxson Dart",
+      "team": "NYG",
+      "sleeper_adp": 88.8,
+      "fantasypros_adp": 92.9
+    },
+    {
+      "name": "RJ Harvey",
+      "team": "DEN",
+      "sleeper_adp": 69.3,
+      "fantasypros_adp": 95.2
+    },
+    {
+      "name": "Courtland Sutton",
+      "team": "DEN",
+      "sleeper_adp": 83.1,
+      "fantasypros_adp": 84.0
+    },
+    {
+      "name": "Kyle Monangai",
+      "team": "CHI",
+      "sleeper_adp": 78.8,
+      "fantasypros_adp": 96.8
+    },
+    {
+      "name": "Chris Godwin",
+      "team": "TB",
+      "sleeper_adp": 93.0,
+      "fantasypros_adp": 84.5
+    },
+    {
+      "name": "Makai Lemon",
+      "team": "PHI",
+      "sleeper_adp": 77.9,
+      "fantasypros_adp": 102.4
+    },
+    {
+      "name": "Michael Wilson",
+      "team": "ARI",
+      "sleeper_adp": 82.6,
+      "fantasypros_adp": 94.1
+    },
+    {
+      "name": "J.K. Dobbins",
+      "team": "DEN",
+      "sleeper_adp": 90.6,
+      "fantasypros_adp": 92.1
+    },
+    {
+      "name": "Blake Corum",
+      "team": "LAR",
+      "sleeper_adp": 90.8,
+      "fantasypros_adp": 96.7
+    },
+    {
+      "name": "George Kittle",
+      "team": "SF",
+      "sleeper_adp": 99.2,
+      "fantasypros_adp": 103.2
+    },
+    {
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "sleeper_adp": 101.0,
+      "fantasypros_adp": 100.8
+    },
+    {
+      "name": "Brock Purdy",
+      "team": "SF",
+      "sleeper_adp": 105.8,
+      "fantasypros_adp": 94.9
+    },
+    {
+      "name": "Quentin Johnston",
+      "team": "LAC",
+      "sleeper_adp": 102.5,
+      "fantasypros_adp": 94.5
+    },
+    {
+      "name": "Dalton Kincaid",
+      "team": "BUF",
+      "sleeper_adp": 97.5,
+      "fantasypros_adp": 113.5
+    },
+    {
+      "name": "Travis Kelce",
+      "team": "KC",
+      "sleeper_adp": 112.6,
+      "fantasypros_adp": 103.5
+    },
+    {
+      "name": "Michael Pittman Jr.",
+      "team": "PIT",
+      "sleeper_adp": 98.0,
+      "fantasypros_adp": 93.9
+    },
+    {
+      "name": "Jonathon Brooks",
+      "team": "CAR",
+      "sleeper_adp": 91.0,
+      "fantasypros_adp": 112.8
+    },
+    {
+      "name": "Bo Nix",
+      "team": "DEN",
+      "sleeper_adp": 114.1,
+      "fantasypros_adp": 101.7
+    },
+    {
+      "name": "Matthew Stafford",
+      "team": "LAR",
+      "sleeper_adp": 116.7,
+      "fantasypros_adp": 104.6
+    },
+    {
+      "name": "Jordan Addison",
+      "team": "MIN",
+      "sleeper_adp": 98.4,
+      "fantasypros_adp": 104.0
+    },
+    {
+      "name": "Jakobi Meyers",
+      "team": "JAX",
+      "sleeper_adp": 95.9,
+      "fantasypros_adp": 103.9
+    },
+    {
+      "name": "Kenneth Gainwell",
+      "team": "TB",
+      "sleeper_adp": 109.8,
+      "fantasypros_adp": 104.7
+    },
+    {
+      "name": "Wan'Dale Robinson",
+      "team": "TEN",
+      "sleeper_adp": 102.0,
+      "fantasypros_adp": 103.8
+    },
+    {
+      "name": "Aaron Jones Sr.",
+      "team": "MIN",
+      "sleeper_adp": 107.4,
+      "fantasypros_adp": 109.7
+    },
+    {
+      "name": "Jake Ferguson",
+      "team": "DAL",
+      "sleeper_adp": 105.3,
+      "fantasypros_adp": 118.6
+    },
+    {
+      "name": "Jacory Croskey-Merritt",
+      "team": "WSH",
+      "sleeper_adp": 108.0,
+      "fantasypros_adp": 113.9
+    },
+    {
+      "name": "Jayden Reed",
+      "team": "GB",
+      "sleeper_adp": 110.5,
+      "fantasypros_adp": 108.8
+    },
+    {
+      "name": "Dallas Goedert",
+      "team": "PHI",
+      "sleeper_adp": 116.7,
+      "fantasypros_adp": 119.1
+    },
+    {
+      "name": "Josh Downs",
+      "team": "IND",
+      "sleeper_adp": 121.0,
+      "fantasypros_adp": 102.0
+    },
+    {
+      "name": "Rachaad White",
+      "team": "WSH",
+      "sleeper_adp": 119.0,
+      "fantasypros_adp": 106.8
+    },
+    {
+      "name": "Jared Goff",
+      "team": "DET",
+      "sleeper_adp": 125.8,
+      "fantasypros_adp": 110.5
+    },
+    {
+      "name": "Mark Andrews",
+      "team": "BAL",
+      "sleeper_adp": 115.0,
+      "fantasypros_adp": 123.0
+    },
+    {
+      "name": "Isaiah Likely",
+      "team": "NYG",
+      "sleeper_adp": 120.5,
+      "fantasypros_adp": 124.3
+    },
+    {
+      "name": "Jordan Mason",
+      "team": "MIN",
+      "sleeper_adp": 124.6,
+      "fantasypros_adp": 117.0
+    },
+    {
+      "name": "Xavier Worthy",
+      "team": "KC",
+      "sleeper_adp": 119.8,
+      "fantasypros_adp": 120.6
+    },
+    {
+      "name": "Romeo Doubs",
+      "team": "NE",
+      "sleeper_adp": 112.7,
+      "fantasypros_adp": 131.9
+    },
+    {
+      "name": "Kyler Murray",
+      "team": "MIN",
+      "sleeper_adp": 153.2,
+      "fantasypros_adp": 114.6
+    },
+    {
+      "name": "Jordan Love",
+      "team": "GB",
+      "sleeper_adp": 133.3,
+      "fantasypros_adp": 123.2
+    },
+    {
+      "name": "K.C. Concepcion",
+      "team": "CLE",
+      "sleeper_adp": 116.0,
+      "fantasypros_adp": 135.4
+    },
+    {
+      "name": "Tyler Allgeier",
+      "team": "ARI",
+      "sleeper_adp": 120.9,
+      "fantasypros_adp": 135.4
+    },
+    {
+      "name": "Zach Charbonnet",
+      "team": "SEA",
+      "sleeper_adp": 123.3,
+      "fantasypros_adp": 136.0
+    },
+    {
+      "name": "Jayden Higgins",
+      "team": "HOU",
+      "sleeper_adp": 129.3,
+      "fantasypros_adp": 125.6
+    },
+    {
+      "name": "Oronde Gadsden II",
+      "team": "LAC",
+      "sleeper_adp": 102.2,
+      "fantasypros_adp": 161.9
+    },
+    {
+      "name": "Baker Mayfield",
+      "team": "TB",
+      "sleeper_adp": 142.2,
+      "fantasypros_adp": 120.8
+    },
+    {
+      "name": "Tyrone Tracy Jr.",
+      "team": "NYG",
+      "sleeper_adp": 131.4,
+      "fantasypros_adp": 130.3
+    },
+    {
+      "name": "Tyler Shough",
+      "team": "NO",
+      "sleeper_adp": 139.1,
+      "fantasypros_adp": 124.5
+    },
+    {
+      "name": "Khalil Shakir",
+      "team": "BUF",
+      "sleeper_adp": 130.4,
+      "fantasypros_adp": 131.8
+    },
+    {
+      "name": "Matthew Golden",
+      "team": "GB",
+      "sleeper_adp": 132.2,
+      "fantasypros_adp": 139.6
+    },
+    {
+      "name": "Malik Willis",
+      "team": "MIA",
+      "sleeper_adp": 139.7,
+      "fantasypros_adp": 139.6
+    },
+    {
+      "name": "Hunter Henry",
+      "team": "NE",
+      "sleeper_adp": 119.2,
+      "fantasypros_adp": 156.2
+    },
+    {
+      "name": "Woody Marks",
+      "team": "HOU",
+      "sleeper_adp": 138.6,
+      "fantasypros_adp": 133.4
+    },
+    {
+      "name": "Jalen Coker",
+      "team": "CAR",
+      "sleeper_adp": 137.8,
+      "fantasypros_adp": 133.2
+    },
+    {
+      "name": "Chris Rodriguez Jr.",
+      "team": "JAX",
+      "sleeper_adp": 140.6,
+      "fantasypros_adp": 132.2
+    },
+    {
+      "name": "Brenton Strange",
+      "team": "JAX",
+      "sleeper_adp": 128.3,
+      "fantasypros_adp": 152.7
+    },
+    {
+      "name": "Brian Robinson Jr.",
+      "team": "ATL",
+      "sleeper_adp": 136.9,
+      "fantasypros_adp": 157.2
+    },
+    {
+      "name": "Tyjae Spears",
+      "team": "TEN",
+      "sleeper_adp": 145.6,
+      "fantasypros_adp": 144.3
+    },
+    {
+      "name": "Juwan Johnson",
+      "team": "NO",
+      "sleeper_adp": 143.1,
+      "fantasypros_adp": 151.2
+    },
+    {
+      "name": "Jonah Coleman",
+      "team": "DEN",
+      "sleeper_adp": 130.2,
+      "fantasypros_adp": 164.3
+    },
+    {
+      "name": "Rashid Shaheed",
+      "team": "SEA",
+      "sleeper_adp": 150.0,
+      "fantasypros_adp": 146.6
+    },
+    {
+      "name": "Alvin Kamara",
+      "team": "NO",
+      "sleeper_adp": 156.8,
+      "fantasypros_adp": 145.9
+    },
+    {
+      "name": "Dylan Sampson",
+      "team": "CLE",
+      "sleeper_adp": 151.5,
+      "fantasypros_adp": 148.5
+    },
+    {
+      "name": "Sam Darnold",
+      "team": "SEA",
+      "sleeper_adp": 157.6,
+      "fantasypros_adp": 150.8
+    },
+    {
+      "name": "Chig Okonkwo",
+      "team": "WSH",
+      "sleeper_adp": 152.5,
+      "fantasypros_adp": 153.7
+    },
+    {
+      "name": "Jauan Jennings",
+      "team": "MIN",
+      "sleeper_adp": 148.1,
+      "fantasypros_adp": 158.2
+    },
+    {
+      "name": "Stefon Diggs",
+      "team": null,
+      "sleeper_adp": 134.4,
+      "fantasypros_adp": 168.6
+    },
+    {
+      "name": "C.J. Stroud",
+      "team": "HOU",
+      "sleeper_adp": 165.6,
+      "fantasypros_adp": 148.3
+    },
+    {
+      "name": "Deebo Samuel",
+      "team": null,
+      "sleeper_adp": 158.7,
+      "fantasypros_adp": 155.3
+    },
+    {
+      "name": "Denzel Boston",
+      "team": "CLE",
+      "sleeper_adp": 144.4,
+      "fantasypros_adp": 167.4
+    },
+    {
+      "name": "Omar Cooper Jr.",
+      "team": "NYJ",
+      "sleeper_adp": 146.0,
+      "fantasypros_adp": 168.0
+    },
+    {
+      "name": "Keaton Mitchell",
+      "team": "LAC",
+      "sleeper_adp": 164.9,
+      "fantasypros_adp": 148.7
+    },
+    {
+      "name": "Isiah Pacheco",
+      "team": "DET",
+      "sleeper_adp": 175.3,
+      "fantasypros_adp": 145.4
+    },
+    {
+      "name": "Cameron Ward",
+      "team": "TEN",
+      "sleeper_adp": 167.0,
+      "fantasypros_adp": 161.4
+    },
+    {
+      "name": "AJ Barner",
+      "team": "SEA",
+      "sleeper_adp": 132.6,
+      "fantasypros_adp": 197.3
+    },
+    {
+      "name": "Tank Bigsby",
+      "team": "PHI",
+      "sleeper_adp": 171.1,
+      "fantasypros_adp": 156.9
+    },
+    {
+      "name": "Dalton Schultz",
+      "team": "HOU",
+      "sleeper_adp": 149.2,
+      "fantasypros_adp": 181.9
+    },
+    {
+      "name": "Kenyon Sadiq",
+      "team": "NYJ",
+      "sleeper_adp": 131.9,
+      "fantasypros_adp": 199.8
+    },
+    {
+      "name": "Jalen McMillan",
+      "team": "TB",
+      "sleeper_adp": 161.9,
+      "fantasypros_adp": 168.7
+    },
+    {
+      "name": "James Conner",
+      "team": "ARI",
+      "sleeper_adp": 152.2,
+      "fantasypros_adp": 188.3
+    },
+    {
+      "name": "Daniel Jones",
+      "team": "IND",
+      "sleeper_adp": 170.1,
+      "fantasypros_adp": 171.2
+    },
+    {
+      "name": "Emmett Johnson",
+      "team": "KC",
+      "sleeper_adp": 153.3,
+      "fantasypros_adp": 189.8
+    },
+    {
+      "name": "Travis Hunter",
+      "team": "JAX",
+      "sleeper_adp": 145.2,
+      "fantasypros_adp": 170.7
+    },
+    {
+      "name": "Bryce Young",
+      "team": "CAR",
+      "sleeper_adp": 172.2,
+      "fantasypros_adp": 177.9
+    },
+    {
+      "name": "T.J. Hockenson",
+      "team": "MIN",
+      "sleeper_adp": 159.0,
+      "fantasypros_adp": 197.3
+    },
+    {
+      "name": "Mike Washington Jr.",
+      "team": "LV",
+      "sleeper_adp": 163.3,
+      "fantasypros_adp": 195.8
+    },
+    {
+      "name": "Adonai Mitchell",
+      "team": "NYJ",
+      "sleeper_adp": 172.9,
+      "fantasypros_adp": 172.3
+    },
+    {
+      "name": "Braelon Allen",
+      "team": "NYJ",
+      "sleeper_adp": 158.3,
+      "fantasypros_adp": 167.8
+    },
+    {
+      "name": "Greg Dulcich",
+      "team": "MIA",
+      "sleeper_adp": null,
+      "fantasypros_adp": 202.5
+    },
+    {
+      "name": "Terrance Ferguson",
+      "team": "LAR",
+      "sleeper_adp": 152.6,
+      "fantasypros_adp": 225.6
+    },
+    {
+      "name": "Jerry Jeudy",
+      "team": "CLE",
+      "sleeper_adp": 168.2,
+      "fantasypros_adp": 161.9
+    },
+    {
+      "name": "Nicholas Singleton",
+      "team": "TEN",
+      "sleeper_adp": 170.9,
+      "fantasypros_adp": 208.5
+    },
+    {
+      "name": "Isaac TeSlaa",
+      "team": "DET",
+      "sleeper_adp": 193.5,
+      "fantasypros_adp": 200.4
+    },
+    {
+      "name": "Tyreek Hill",
+      "team": null,
+      "sleeper_adp": 156.6,
+      "fantasypros_adp": 234.4
+    },
+    {
+      "name": "Aaron Rodgers",
+      "team": "PIT",
+      "sleeper_adp": null,
+      "fantasypros_adp": 234.1
+    },
+    {
+      "name": "David Njoku",
+      "team": "LAC",
+      "sleeper_adp": 172.0,
+      "fantasypros_adp": 237.0
+    },
+    {
+      "name": "Pat Freiermuth",
+      "team": "PIT",
+      "sleeper_adp": null,
+      "fantasypros_adp": 234.2
+    },
+    {
+      "name": "Antonio Williams",
+      "team": "WSH",
+      "sleeper_adp": 163.9,
+      "fantasypros_adp": 195.8
+    },
+    {
+      "name": "Jalen Nailor",
+      "team": "LV",
+      "sleeper_adp": 214.4,
+      "fantasypros_adp": 198.7
+    },
+    {
+      "name": "Ray Davis",
+      "team": "BUF",
+      "sleeper_adp": 192.6,
+      "fantasypros_adp": 192.8
+    },
+    {
+      "name": "Tre Tucker",
+      "team": "LV",
+      "sleeper_adp": 199.1,
+      "fantasypros_adp": 178.9
+    },
+    {
+      "name": "Brandon Aiyuk",
+      "team": "SF",
+      "sleeper_adp": 194.0,
+      "fantasypros_adp": 226.9
+    },
+    {
+      "name": "Fernando Mendoza",
+      "team": "LV",
+      "sleeper_adp": 170.2,
+      "fantasypros_adp": 261.9
+    },
+    {
+      "name": "Kaytron Allen",
+      "team": "WSH",
+      "sleeper_adp": 180.8,
+      "fantasypros_adp": 209.4
+    },
+    {
+      "name": "Ryan Flournoy",
+      "team": "DAL",
+      "sleeper_adp": 216.7,
+      "fantasypros_adp": 189.2
+    },
+    {
+      "name": "Tre Harris",
+      "team": "LAC",
+      "sleeper_adp": 188.5,
+      "fantasypros_adp": 186.4
+    },
+    {
+      "name": "De'Zhaun Stribling",
+      "team": null,
+      "sleeper_adp": null,
+      "fantasypros_adp": 197.8
+    },
+    {
+      "name": "Sean Tucker",
+      "team": "TB",
+      "sleeper_adp": 190.9,
+      "fantasypros_adp": 187.4
+    },
+    {
+      "name": "Gunnar Helm",
+      "team": "TEN",
+      "sleeper_adp": 161.4,
+      "fantasypros_adp": 218.6
+    },
+    {
+      "name": "Kimani Vidal",
+      "team": "LAC",
+      "sleeper_adp": 187.5,
+      "fantasypros_adp": 186.4
+    },
+    {
+      "name": "Kayshon Boutte",
+      "team": "NE",
+      "sleeper_adp": 173.3,
+      "fantasypros_adp": 190.4
+    },
+    {
+      "name": "MarShawn Lloyd",
+      "team": "GB",
+      "sleeper_adp": null,
+      "fantasypros_adp": 217.5
+    },
+    {
+      "name": "Jaylin Noel",
+      "team": "HOU",
+      "sleeper_adp": 204.7,
+      "fantasypros_adp": 199.0
+    },
+    {
+      "name": "Calvin Ridley",
+      "team": "TEN",
+      "sleeper_adp": 214.0,
+      "fantasypros_adp": 198.8
+    },
+    {
+      "name": "Jaydon Blue",
+      "team": "DAL",
+      "sleeper_adp": 217.2,
+      "fantasypros_adp": 225.9
+    },
+    {
+      "name": "Jacoby Brissett",
+      "team": "ARI",
+      "sleeper_adp": 202.4,
+      "fantasypros_adp": 207.7
+    },
+    {
+      "name": "Emanuel Wilson",
+      "team": "SEA",
+      "sleeper_adp": 200.5,
+      "fantasypros_adp": 195.3
+    },
+    {
+      "name": "Demond Claiborne",
+      "team": "MIN",
+      "sleeper_adp": 201.7,
+      "fantasypros_adp": 236.3
+    },
+    {
+      "name": "Zachariah Branch",
+      "team": "ATL",
+      "sleeper_adp": 198.3,
+      "fantasypros_adp": 232.2
+    },
+    {
+      "name": "Malik Washington",
+      "team": "MIA",
+      "sleeper_adp": null,
+      "fantasypros_adp": 213.1
+    },
+    {
+      "name": "Jaylen Wright",
+      "team": "MIA",
+      "sleeper_adp": 199.6,
+      "fantasypros_adp": 219.9
+    },
+    {
+      "name": "Cade Otton",
+      "team": "TB",
+      "sleeper_adp": 157.2,
+      "fantasypros_adp": 237.3
+    },
+    {
+      "name": "Darnell Mooney",
+      "team": "NYG",
+      "sleeper_adp": 210.3,
+      "fantasypros_adp": 206.4
+    },
+    {
+      "name": "Troy Franklin",
+      "team": "DEN",
+      "sleeper_adp": 202.0,
+      "fantasypros_adp": 197.5
+    },
+    {
+      "name": "Pat Bryant",
+      "team": "DEN",
+      "sleeper_adp": 206.0,
+      "fantasypros_adp": 216.1
+    },
+    {
+      "name": "Justice Hill",
+      "team": "BAL",
+      "sleeper_adp": null,
+      "fantasypros_adp": 235.0
+    },
+    {
+      "name": "Rashod Bateman",
+      "team": "BAL",
+      "sleeper_adp": 221.4,
+      "fantasypros_adp": 219.6
+    },
+    {
+      "name": "George Holani",
+      "team": null,
+      "sleeper_adp": null,
+      "fantasypros_adp": 244.2
+    },
+    {
+      "name": "Ollie Gordon II",
+      "team": "MIA",
+      "sleeper_adp": null,
+      "fantasypros_adp": 229.4
+    },
+    {
+      "name": "Isaiah Davis",
+      "team": "NYJ",
+      "sleeper_adp": null,
+      "fantasypros_adp": 246.4
+    },
+    {
+      "name": "Tank Dell",
+      "team": "HOU",
+      "sleeper_adp": 199.7,
+      "fantasypros_adp": 222.9
+    },
+    {
+      "name": "Germie Bernard",
+      "team": "PIT",
+      "sleeper_adp": 210.4,
+      "fantasypros_adp": 231.0
+    },
+    {
+      "name": "Jack Bech",
+      "team": "LV",
+      "sleeper_adp": 226.8,
+      "fantasypros_adp": 249.4
+    },
+    {
+      "name": "Michael Trigg",
+      "team": "DAL",
+      "sleeper_adp": 235.3,
+      "fantasypros_adp": null
+    },
+    {
+      "name": "Dontayvion Wicks",
+      "team": "PHI",
+      "sleeper_adp": null,
+      "fantasypros_adp": 209.3
+    },
+    {
+      "name": "Jordan James",
+      "team": "SF",
+      "sleeper_adp": null,
+      "fantasypros_adp": 255.5
+    },
+    {
+      "name": "Kendre Miller",
+      "team": "NO",
+      "sleeper_adp": 207.2,
+      "fantasypros_adp": 266.1
+    },
+    {
+      "name": "Trey Benson",
+      "team": "ARI",
+      "sleeper_adp": 179.0,
+      "fantasypros_adp": 251.6
+    },
+    {
+      "name": "Kaelon Black",
+      "team": null,
+      "sleeper_adp": null,
+      "fantasypros_adp": 248.9
+    },
+    {
+      "name": "Eli Stowers",
+      "team": "PHI",
+      "sleeper_adp": 176.4,
+      "fantasypros_adp": 263.4
+    },
+    {
+      "name": "Colby Parkinson",
+      "team": "LAR",
+      "sleeper_adp": 196.0,
+      "fantasypros_adp": 249.6
+    },
+    {
+      "name": "Chris Brooks",
+      "team": "GB",
+      "sleeper_adp": null,
+      "fantasypros_adp": 256.1
+    },
+    {
+      "name": "Elijah Sarratt",
+      "team": "BAL",
+      "sleeper_adp": 218.7,
+      "fantasypros_adp": 252.4
+    },
+    {
+      "name": "Cooper Kupp",
+      "team": "SEA",
+      "sleeper_adp": 224.8,
+      "fantasypros_adp": 229.6
+    },
+    {
+      "name": "Geno Smith",
+      "team": "NYJ",
+      "sleeper_adp": null,
+      "fantasypros_adp": 242.6
+    },
+    {
+      "name": "Theo Johnson",
+      "team": "NYG",
+      "sleeper_adp": 154.3,
+      "fantasypros_adp": 262.4
+    },
+    {
+      "name": "Malachi Fields",
+      "team": "NYG",
+      "sleeper_adp": 230.2,
+      "fantasypros_adp": 259.2
+    },
+    {
+      "name": "Tory Horton",
+      "team": "SEA",
+      "sleeper_adp": 217.5,
+      "fantasypros_adp": 252.1
+    },
+    {
+      "name": "Chris Bell",
+      "team": "MIA",
+      "sleeper_adp": 220.7,
+      "fantasypros_adp": 247.3
+    },
+    {
+      "name": "Ted Hurst",
+      "team": "TB",
+      "sleeper_adp": 213.3,
+      "fantasypros_adp": 253.7
+    },
+    {
+      "name": "Najee Harris",
+      "team": null,
+      "sleeper_adp": 245.0,
+      "fantasypros_adp": 270.0
+    },
+    {
+      "name": "Chimere Dike",
+      "team": "TEN",
+      "sleeper_adp": 215.0,
+      "fantasypros_adp": 231.3
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "team": "ATL",
+      "sleeper_adp": 237.7,
+      "fantasypros_adp": 269.8
+    },
+    {
+      "name": "DJ Giddens",
+      "team": "IND",
+      "sleeper_adp": null,
+      "fantasypros_adp": 258.1
+    },
+    {
+      "name": "Devin Neal",
+      "team": "NO",
+      "sleeper_adp": 268.2,
+      "fantasypros_adp": 248.1
+    },
+    {
+      "name": "Ricky Pearsall",
+      "team": "SF",
+      "sleeper_adp": 400.0,
+      "fantasypros_adp": null
+    },
+    {
+      "name": "Ja'Kobi Lane",
+      "team": "BAL",
+      "sleeper_adp": 191.7,
+      "fantasypros_adp": 284.2
+    },
+    {
+      "name": "Keon Coleman",
+      "team": "BUF",
+      "sleeper_adp": 223.8,
+      "fantasypros_adp": 246.5
+    },
+    {
+      "name": "Marvin Mims Jr.",
+      "team": "DEN",
+      "sleeper_adp": 209.1,
+      "fantasypros_adp": 258.9
+    },
+    {
+      "name": "Tyquan Thornton",
+      "team": "KC",
+      "sleeper_adp": null,
+      "fantasypros_adp": 257.8
+    },
+    {
+      "name": "Kaleb Johnson",
+      "team": "PIT",
+      "sleeper_adp": 200.4,
+      "fantasypros_adp": 261.9
+    },
+    {
+      "name": "Michael Penix Jr.",
+      "team": "ATL",
+      "sleeper_adp": 229.5,
+      "fantasypros_adp": 289.6
+    },
+    {
+      "name": "Elic Ayomanor",
+      "team": "TEN",
+      "sleeper_adp": 244.1,
+      "fantasypros_adp": 239.8
+    },
+    {
+      "name": "Emari Demercado",
+      "team": "KC",
+      "sleeper_adp": null,
+      "fantasypros_adp": 277.6
+    },
+    {
+      "name": "Christian Kirk",
+      "team": "SF",
+      "sleeper_adp": 229.4,
+      "fantasypros_adp": 258.0
+    },
+    {
+      "name": "Shedeur Sanders",
+      "team": "CLE",
+      "sleeper_adp": 226.8,
+      "fantasypros_adp": 293.3
+    },
+    {
+      "name": "Devaughn Vele",
+      "team": "NO",
+      "sleeper_adp": 227.3,
+      "fantasypros_adp": 272.8
+    },
+    {
+      "name": "Keenan Allen",
+      "team": null,
+      "sleeper_adp": 222.7,
+      "fantasypros_adp": 271.2
+    },
+    {
+      "name": "LeQuint Allen Jr.",
+      "team": "JAX",
+      "sleeper_adp": null,
+      "fantasypros_adp": 274.0
+    },
+    {
+      "name": "Mason Taylor",
+      "team": "NYJ",
+      "sleeper_adp": 218.2,
+      "fantasypros_adp": 270.4
+    },
+    {
+      "name": "Kyle Williams",
+      "team": "NE",
+      "sleeper_adp": 211.9,
+      "fantasypros_adp": 266.4
+    },
+    {
+      "name": "Cyrus Allen",
+      "team": null,
+      "sleeper_adp": null,
+      "fantasypros_adp": 271.4
+    },
+    {
+      "name": "Kirk Cousins",
+      "team": "LV",
+      "sleeper_adp": null,
+      "fantasypros_adp": 289.1
+    },
+    {
+      "name": "Darius Slayton",
+      "team": "NYG",
+      "sleeper_adp": null,
+      "fantasypros_adp": 257.5
+    },
+    {
+      "name": "Evan Engram",
+      "team": "DEN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 253.0
+    },
+    {
+      "name": "Max Klare",
+      "team": "LAR",
+      "sleeper_adp": 234.3,
+      "fantasypros_adp": 312.7
+    },
+    {
+      "name": "Jahan Dotson",
+      "team": "ATL",
+      "sleeper_adp": null,
+      "fantasypros_adp": 295.5
+    },
+    {
+      "name": "Jake Tonges",
+      "team": "SF",
+      "sleeper_adp": 213.2,
+      "fantasypros_adp": 287.5
+    },
+    {
+      "name": "Brashard Smith",
+      "team": "KC",
+      "sleeper_adp": 209.4,
+      "fantasypros_adp": 283.4
+    },
+    {
+      "name": "Samaje Perine",
+      "team": "CIN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 262.6
+    },
+    {
+      "name": "Jerome Ford",
+      "team": "WSH",
+      "sleeper_adp": null,
+      "fantasypros_adp": 278.9
+    },
+    {
+      "name": "Joshua Palmer",
+      "team": "BUF",
+      "sleeper_adp": null,
+      "fantasypros_adp": 281.3
+    },
+    {
+      "name": "Skyler Bell",
+      "team": "BUF",
+      "sleeper_adp": null,
+      "fantasypros_adp": 290.7
+    },
+    {
+      "name": "Mike Gesicki",
+      "team": "CIN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 259.3
+    },
+    {
+      "name": "Ty Johnson",
+      "team": "BUF",
+      "sleeper_adp": null,
+      "fantasypros_adp": 252.3
+    },
+    {
+      "name": "Malik Davis",
+      "team": "DAL",
+      "sleeper_adp": null,
+      "fantasypros_adp": 255.8
+    },
+    {
+      "name": "Jarquez Hunter",
+      "team": "LAR",
+      "sleeper_adp": 221.5,
+      "fantasypros_adp": 310.0
+    },
+    {
+      "name": "Darnell Washington",
+      "team": "PIT",
+      "sleeper_adp": null,
+      "fantasypros_adp": 284.9
+    },
+    {
+      "name": "Hollywood Brown",
+      "team": "PHI",
+      "sleeper_adp": null,
+      "fantasypros_adp": 277.8
+    },
+    {
+      "name": "Phil Mafah",
+      "team": "DAL",
+      "sleeper_adp": null,
+      "fantasypros_adp": 320.5
+    },
+    {
+      "name": "Caleb Douglas",
+      "team": "MIA",
+      "sleeper_adp": null,
+      "fantasypros_adp": 293.8
+    },
+    {
+      "name": "Jalen Tolbert",
+      "team": "MIA",
+      "sleeper_adp": null,
+      "fantasypros_adp": 287.9
+    },
+    {
+      "name": "Deshaun Watson",
+      "team": "CLE",
+      "sleeper_adp": null,
+      "fantasypros_adp": 292.7
+    },
+    {
+      "name": "Isaac Guerendo",
+      "team": "SF",
+      "sleeper_adp": null,
+      "fantasypros_adp": 295.2
+    },
+    {
+      "name": "Tyler Higbee",
+      "team": "LAR",
+      "sleeper_adp": null,
+      "fantasypros_adp": 298.9
+    },
+    {
+      "name": "Ty Simpson",
+      "team": "LAR",
+      "sleeper_adp": 242.1,
+      "fantasypros_adp": 350.1
+    },
+    {
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "sleeper_adp": null,
+      "fantasypros_adp": 261.2
+    },
+    {
+      "name": "Nick Chubb",
+      "team": null,
+      "sleeper_adp": null,
+      "fantasypros_adp": 324.5
+    },
+    {
+      "name": "Jaleel McLaughlin",
+      "team": "DEN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 301.2
+    },
+    {
+      "name": "Audric Estime",
+      "team": "NO",
+      "sleeper_adp": 218.6,
+      "fantasypros_adp": 310.6
+    },
+    {
+      "name": "Andrei Iosivas",
+      "team": "CIN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 269.1
+    },
+    {
+      "name": "Adam Randall",
+      "team": "BAL",
+      "sleeper_adp": null,
+      "fantasypros_adp": 281.5
+    },
+    {
+      "name": "Devin Singletary",
+      "team": "NYG",
+      "sleeper_adp": null,
+      "fantasypros_adp": 281.1
+    },
+    {
+      "name": "Mack Hollins",
+      "team": "NE",
+      "sleeper_adp": null,
+      "fantasypros_adp": 277.6
+    },
+    {
+      "name": "Kendrick Bourne",
+      "team": "ARI",
+      "sleeper_adp": null,
+      "fantasypros_adp": 269.4
+    },
+    {
+      "name": "Seth McGowan",
+      "team": null,
+      "sleeper_adp": null,
+      "fantasypros_adp": 286.9
+    },
+    {
+      "name": "Konata Mumpfield",
+      "team": "LAR",
+      "sleeper_adp": null,
+      "fantasypros_adp": 300.8
+    },
+    {
+      "name": "Oscar Delp",
+      "team": "NO",
+      "sleeper_adp": null,
+      "fantasypros_adp": 296.4
+    },
+    {
+      "name": "Treylon Burks",
+      "team": "WSH",
+      "sleeper_adp": null,
+      "fantasypros_adp": 318.8
+    },
+    {
+      "name": "Isaiah Bond",
+      "team": "CLE",
+      "sleeper_adp": null,
+      "fantasypros_adp": 286.7
+    },
+    {
+      "name": "Erick All Jr.",
+      "team": "CIN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 311.1
+    },
+    {
+      "name": "Michael Mayer",
+      "team": "LV",
+      "sleeper_adp": null,
+      "fantasypros_adp": 313.0
+    },
+    {
+      "name": "Tahj Brooks",
+      "team": "CIN",
+      "sleeper_adp": null,
+      "fantasypros_adp": 306.3
+    },
+    {
+      "name": "Brenen Thompson",
+      "team": "LAC",
+      "sleeper_adp": null,
+      "fantasypros_adp": 315.7
+    },
+    {
+      "name": "Trevor Etienne",
+      "team": "CAR",
+      "sleeper_adp": null,
+      "fantasypros_adp": 305.3
+    },
+    {
+      "name": "Raheim Sanders",
+      "team": "CLE",
+      "sleeper_adp": null,
+      "fantasypros_adp": 318.6
+    }
+  ]
+}
