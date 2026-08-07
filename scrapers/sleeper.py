@@ -16,11 +16,45 @@ if BeatADP changes their page layout, this will need updating (it's
 isolated to this one file on purpose).
 """
 
+import json
+import os
 import re
 import requests
 from bs4 import BeautifulSoup
 
 BEATADP_URL = "https://www.beatadp.com/platform-adp"
+
+HALF_PPR_SEED_PATH = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "half_ppr_seed.json"
+)
+
+
+def load_half_ppr_seed():
+    """
+    Returns Sleeper/FantasyPros ADP for half-PPR leagues from a static
+    snapshot file (data/half_ppr_seed.json), rather than live-scraping.
+
+    BeatADP's scoring-format toggle (PPR / Half PPR / Standard) is applied
+    client-side via JavaScript after the page loads — every URL variant we
+    tried returns the identical full-PPR numbers when fetched with plain
+    `requests`. So instead of silently showing wrong numbers, half-PPR
+    Sleeper/FantasyPros ADP is a manually captured snapshot. It'll drift
+    from live data over time — re-paste a fresh copy from BeatADP (with
+    scoring set to Half PPR) into data/half_ppr_seed.json before draft day
+    if you want current numbers, or find the real API call behind that
+    toggle (see README) and this can become live.
+
+    Raises FileNotFoundError if the seed file is missing.
+    """
+    if not os.path.exists(HALF_PPR_SEED_PATH):
+        raise FileNotFoundError(
+            f"No half-PPR seed file found at {HALF_PPR_SEED_PATH}. "
+            "Half-PPR Sleeper/FantasyPros data isn't live-scrapable — see "
+            "the docstring on load_half_ppr_seed() for how to add one."
+        )
+    with open(HALF_PPR_SEED_PATH) as f:
+        data = json.load(f)
+    return data.get("players", []), data.get("captured_at")
 
 NFL_TEAMS = {
     "ATL", "BUF", "CHI", "CIN", "CLE", "DAL", "DEN", "DET", "GB", "TEN",
